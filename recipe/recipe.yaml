@@ -1,8 +1,8 @@
 schema_version: 1
 
 context:
-  version: "0.1.0"
-  python_min: "3.13"
+  version: "0.2.0"
+  python_min: "3.12"
 
 package:
   name: water-ogcapi
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/w/water-ogcapi/water_ogcapi-${{ version }}.tar.gz
-  sha256: b8443f602a8721af2feddce45aaa182af90e753789350b8f95eeb42163b162d1
+  sha256: 44cf651a411bcc5b918b8a775028bbafe3453336614c8b73fb740193a1b01857
 
 build:
   number: 0
